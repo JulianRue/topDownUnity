@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8040322443295024500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8040322443295024501}
+  - component: {fileID: 8040322443295024502}
+  - component: {fileID: 8040322443295024503}
+  m_Layer: 0
+  m_Name: Game
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8040322443295024501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8040322443295024500}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8040322443295024502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8040322443295024500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd4a84881b268054abcbc415b16e0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawning: 1
+  spawnTime: 1
+  zombie_count: 0
+  kill_count: 0
+  lvl: 0
+  MAXLEVEL: 10
+  playerDamage: 1
+  playerMoveSpeed: 4
+  map1: {fileID: 0}
+  map2: {fileID: 0}
+--- !u!114 &8040322443295024503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8040322443295024500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb080493bf5ff40499208ec9da3aba8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zombie: {fileID: 4832370623059826233, guid: bb736bb3bab915c49a2ee4af3ec2ee9d, type: 3}
+  wave1: {fileID: 4658531623031894283, guid: e0554f19ef149b74587c08445b04a22d, type: 3}
+  wave2: {fileID: 1850063709421369670, guid: 79ddbb79e81f89544b8cb4cd74395c0d, type: 3}
+  wave3: {fileID: 6869205654085215990, guid: 37855a2c4633fe544a39edc79c2f1c85, type: 3}
+  wave4: {fileID: 2583015235583777426, guid: dde0f95a1d7f70a4ca01066771d57bd5, type: 3}
+  wave5: {fileID: 272625823172579619, guid: ded45b7b34f28bb4488d85e3071973c9, type: 3}
+  wave6: {fileID: 3960663823488288654, guid: f20223c1fe08cbc428c19c1a9cbafa42, type: 3}
+  wave7: {fileID: 0}
+  wave8: {fileID: 0}
+  wave9: {fileID: 0}
+  screen: {x: 0, y: 0}
+  spawnedText: {fileID: 0}
+  healthText: {fileID: 0}
+  damageText: {fileID: 0}
+  waveText: {fileID: 0}
